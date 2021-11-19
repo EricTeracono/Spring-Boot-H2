@@ -37,21 +37,15 @@ Para isso, no Advanced REST Client, em HTTP request, selecione
 
 ```json
 Method:POST
-
 Request URL: http://localhost:8080/registrar
 
 Em Headers:
-
 Header name: content-type
-
 Header value: application/json
 
 Em Body selecione:
-
 Body content type: application/json
-
 Editor view: Raw Input
-
 ```
 
 Para cadastrar o dispositivo, um exemplo para colocar no Body seria:
