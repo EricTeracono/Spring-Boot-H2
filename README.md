@@ -1,29 +1,35 @@
 # Spring-Boot-H2
 Aplicativo feito para o Desafio PADO.
 
-Primeiramente para rodar o aplicativo é necessário o IDE de preferência, eu por exemplo utilizei o IDE Eclipse
+Primeiramente para rodar o aplicativo é necessário um IDE de preferência, como por exemplo o IDE Eclipse
 
 Link para Download:
 
 https://www.eclipse.org/downloads/
 
-Também é necessário um client de REST, utilizei o Advanced REST Client, mas qualquer um pode ser utilizado:
+Também é necessário um client de REST, como o Advanced REST Client, mas outros podem ser utilizados:
 
 Link Para Download:
 
 https://install.advancedrestclient.com/install
 
-# O próximo passo é baixar os arquivos desse GitHub, e importa-los na IDE:
+# Importação e abrindo o aplicativo
 
-Para importar no Eclipse o caminho é:
+O próximo passo é baixar os arquivos desse GitHub, e importa-los na Eclipse:
+
+Para importar na Eclipse o caminho é:
 
 File->Import->Maven->Existing Maven Projects->Next
 
-Agora clicar em browse e selecionar a pasta spring-boot-h2 onde foi instalado no computador.
+Clique em "browse..." e selecione a pasta spring-boot-h2 onde foi instalado no computador.
 
-Após importado o projeto, clique em cima do spring-boot-h2, selecione agora Run->Run (botão verde de play) para rodar o aplicativo. Clique em SpringBootH2Application e em OK. O aplicativo agora está rodando.
+Após importado o projeto, clique em cima do spring-boot-h2, selecione Run->Run (botão verde de play) para rodar o aplicativo. Clique em SpringBootH2Application e em OK. O aplicativo agora está rodando.
 
-## O Aplicativo é um sistema para cadastros de dispositivos IoT e tem 3 funcionalidades.
+# Como utilizar o aplicativo.
+
+O Aplicativo é um sistema para cadastros de dispositivos IoT e tem 3 funcionalidades.
+
+## Primeira funcionalidade
 
 A primeira é o cadastro de um único dispositivo IoT.
 
@@ -32,7 +38,7 @@ Para isso, no Advanced REST Client, em HTTP request, selecione
 Method:POST
 Request URL: http://localhost:8080/registrar
 
-Em Headers, nos campos escreva
+Em Headers:
 
 Header name: content-type
 
@@ -53,14 +59,16 @@ E clique em Format JSON, se já não o estiver.
 Aperte então o botão SEND no canto superior direito. 
 A resposta será 201 Created e embaixo o Id do dispositivo e o mac do dispositivo.
 
-## A segunda funcionalidade é a listagem de todos os dispositivos cadastrados.
+## Segunda Funcionalidade
+
+A segunda funcionalidade é a listagem de todos os dispositivos cadastrados.
 
 Criaremos novamente um HTTP Request, com as seguintes informações.
 
-Method:GET
-http://localhost:8080/listar
+Method: GET
+Request URL: http://localhost:8080/listar
 
-Em Headers, nos campos escreva
+Em Headers:
 
 Header name: content-type
 
@@ -68,18 +76,22 @@ Header value: application/json
 
 Aperte o botão de SEND.
 
-Um exemplo da lista que vai aparecer é:
+Exemplo de Lista:
 
 ![image](https://user-images.githubusercontent.com/94720397/142698245-5e6157ea-d875-493d-a729-21d2751f3ea4.png)
 
-## E a terceira e ultima funcionalidade é a possibilidade de procurar um dispositivo atraves do seu ID.
+## Terceira Funcionalidade
+
+A terceira e ultima funcionalidade é a possibilidade de procurar um dispositivo atraves do seu ID.
 
 Em HTTP request, os campos serão:
 
 Method:GET
 http://localhost:8080/listar/"numero_de_id_do_dispositivo"
 
-exemplos:
+Os Headers são os mesmo da segunda funcionalidade.
+
+Exemplos:
 
 http://localhost:8080/listar/1
 
