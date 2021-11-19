@@ -73,24 +73,7 @@ Aperte o botão de SEND.
 
 Um exemplo da lista que vai aparecer é:
 
-[
-    {
-      "id": 1,
-      "nome": "Dispositivo A Cadastrar",
-      "mac": "Mac do Dispositivo",
-      "email": "email do dono do dispositivo",
-      "latitude": "latitude",
-      "longitude": "longitude"
-    },
-{
-      "id": 2,
-      "nome": "Dispositivo A Cadastrar2",
-      "mac": "Mac do Dispositivo",
-      "email": "email do dono do dispositivo",
-      "latitude": "latitude",
-      "longitude": "longitude"
-      }
-],
+![image](https://user-images.githubusercontent.com/94720397/142698245-5e6157ea-d875-493d-a729-21d2751f3ea4.png)
 
 E a terceira e ultima funcionalidade é a possibilidade de procurar um dispositivo atraves do seu ID.
 
