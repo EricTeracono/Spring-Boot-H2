@@ -13,7 +13,7 @@ Link Para Download:
 
 https://install.advancedrestclient.com/install
 
-O próximo passo é baixar os arquivos desse GitHub, e importa-los na IDE:
+#O próximo passo é baixar os arquivos desse GitHub, e importa-los na IDE:
 
 Para importar no Eclipse o caminho é:
 
@@ -23,7 +23,7 @@ Agora clicar em browse e selecionar a pasta spring-boot-h2 onde foi instalado no
 
 Após importado o projeto, clique em cima do spring-boot-h2, selecione agora Run->Run (botão verde de play) para rodar o aplicativo. Clique em SpringBootH2Application e em OK. O aplicativo agora está rodando.
 
-O Aplicativo é um sistema para cadastros de dispositivos IoT e tem 3 funcionalidades.
+#O Aplicativo é um sistema para cadastros de dispositivos IoT e tem 3 funcionalidades.
 
 A primeira é o cadastro de um único dispositivo IoT.
 
@@ -53,7 +53,7 @@ E clique em Format JSON, se já não o estiver.
 Aperte então o botão SEND no canto superior direito. 
 A resposta será 201 Created e embaixo o Id do dispositivo e o mac do dispositivo.
 
-A segunda funcionalidade é a listagem de todos os dispositivos cadastrados.
+#A segunda funcionalidade é a listagem de todos os dispositivos cadastrados.
 
 Criaremos novamente um HTTP Request, com as seguintes informações.
 
@@ -72,7 +72,7 @@ Um exemplo da lista que vai aparecer é:
 
 ![image](https://user-images.githubusercontent.com/94720397/142698245-5e6157ea-d875-493d-a729-21d2751f3ea4.png)
 
-E a terceira e ultima funcionalidade é a possibilidade de procurar um dispositivo atraves do seu ID.
+#E a terceira e ultima funcionalidade é a possibilidade de procurar um dispositivo atraves do seu ID.
 
 Em HTTP request, os campos serão:
 
