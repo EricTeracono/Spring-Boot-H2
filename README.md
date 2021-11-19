@@ -44,13 +44,7 @@ Editor view: Raw Input
 
 Para cadastrar o dispositivo, um exemplo para colocar no Body seria:
 
-{
-  "nome": "Dispositivo A Cadastrar",
-  "mac": "Mac do Dispositivo",
-  "email": "email do dono do dispositivo",
-  "latitude": "latitude",
-  "longitude": "longitude"
-}
+![image](https://user-images.githubusercontent.com/94720397/142698296-6b32e58f-0abd-427d-a0fd-75364bada2e7.png)
 
 E clique em Format JSON, se já não o estiver.
 
