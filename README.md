@@ -13,7 +13,7 @@ Link Para Download:
 
 https://install.advancedrestclient.com/install
 
-# Importação e abrindo o aplicativo
+# Importação do código na IDE
 
 O próximo passo é baixar os arquivos desse GitHub, e importa-los na Eclipse:
 
