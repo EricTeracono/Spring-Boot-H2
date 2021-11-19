@@ -36,6 +36,7 @@ A primeira é o cadastro de um único dispositivo IoT.
 Para isso, no Advanced REST Client, em HTTP request, selecione
 
 Method:POST
+
 Request URL: http://localhost:8080/registrar
 
 Em Headers:
