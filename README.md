@@ -21,7 +21,7 @@ File->Import->Maven->Existing Maven Projects->Next
 
 Agora clicar em browse e selecionar a pasta spring-boot-h2 onde foi instalado no computador.
 
-Após importado o projeto, clique em cima do srping-boot-h2, selecione agora Run->Run (botão verde de play) para rodar o aplicativo. Clique em SpringBootH2Application e em OK. O aplicativo agora está rodando.
+Após importado o projeto, clique em cima do spring-boot-h2, selecione agora Run->Run (botão verde de play) para rodar o aplicativo. Clique em SpringBootH2Application e em OK. O aplicativo agora está rodando.
 
 O Aplicativo é um sistema para cadastros de dispositivos IoT e tem 3 funcionalidades.
 
