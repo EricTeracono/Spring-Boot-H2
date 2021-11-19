@@ -35,6 +35,7 @@ A primeira é o cadastro de um único dispositivo IoT.
 
 Para isso, no Advanced REST Client, em HTTP request, selecione
 
+```json
 Method:POST
 
 Request URL: http://localhost:8080/registrar
@@ -50,6 +51,8 @@ Em Body selecione:
 Body content type: application/json
 
 Editor view: Raw Input
+
+```
 
 Para cadastrar o dispositivo, um exemplo para colocar no Body seria:
 
