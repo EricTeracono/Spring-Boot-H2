@@ -35,11 +35,13 @@ Request URL: http://localhost:8080/registrar
 Em Headers, nos campos escreva
 
 Header name: content-type
+
 Header value: application/json
 
 Em Body selecione:
 
 Body content type: application/json
+
 Editor view: Raw Input
 
 Para cadastrar o dispositivo, um exemplo para colocar no Body seria:
@@ -61,6 +63,7 @@ http://localhost:8080/listar
 Em Headers, nos campos escreva
 
 Header name: content-type
+
 Header value: application/json
 
 Aperte o botão de SEND.
