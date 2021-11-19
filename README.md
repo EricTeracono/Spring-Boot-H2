@@ -74,11 +74,12 @@ E a terceira e ultima funcionalidade é a possibilidade de procurar um dispositi
 Em HTTP request, os campos serão:
 
 Method:GET
-http://localhost:8080/listar/"numero de id do dispositivo"
+http://localhost:8080/listar/"numero_de_id_do_dispositivo"
 
 exemplos:
 
 http://localhost:8080/listar/1
+
 http://localhost:8080/listar/2
 
 Aperte o botão de SEND e o resultado será o dispositivo do ID que você procurou.
