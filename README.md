@@ -43,7 +43,7 @@ Em Headers:
 Header name: content-type
 Header value: application/json
 
-Em Body selecione:
+Em Body:
 Body content type: application/json
 Editor view: Raw Input
 ```
@@ -63,14 +63,14 @@ A segunda funcionalidade é a listagem de todos os dispositivos cadastrados.
 
 Criaremos novamente um HTTP Request, com as seguintes informações.
 
+```json
 Method: GET
 Request URL: http://localhost:8080/listar
 
 Em Headers:
-
 Header name: content-type
-
 Header value: application/json
+```
 
 Aperte o botão de SEND.
 
@@ -84,10 +84,15 @@ A terceira e ultima funcionalidade é a possibilidade de procurar um dispositivo
 
 Em HTTP request, os campos serão:
 
+```json
 Method:GET
 http://localhost:8080/listar/"numero_de_id_do_dispositivo"
 
-Os Headers são os mesmo da segunda funcionalidade.
+Em Headers:
+Header name: content-type
+Header value: application/json
+```
+
 
 Exemplos:
 
